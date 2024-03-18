@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        Tạo thanh đứng (Vertical navigation bar)
+        */
+        .divvernar{
+            background-color: cyan;
+            display: inline;
+            
+        }
+        .divvernar a{
+            background-color: green;
+            color: white;
+            display: block;
+            width: 120px;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            /* chỉnh độ cao dòng nhưng chữ luôn nằm trên
+            height: 30px;
+            */
+
+            /* chỉnh độ cao dòng nhưng chữ luôn nằm giữa
+            line-height: 30px;
+            */
+            line-height: 30px;
+            text-align: center;
+
+        }
+
+        /*
+        Tạo thanh ngang(Horizontal navigation bar)
+        */
+        .divhornar{
+            /*thêm background để lấp khoảng trống giữa các thẻ a
+            hoặc tô bg cho div hoặc tô cho từng ô chứa liên kết
+            */
+            background-color: green;
+            display: inline-block;
+            width: 700px;
+            line-height: 40px;
+
+        }
+        .divhornar a{
+            background-color: green;
+            color: white;
+            display: inline-block;
+            width: 120px;
+
+            /* chỉnh độ cao dòng nhưng chữ luôn nằm trên
+            height: 30px;
+            */
+
+            /* chỉnh độ cao dòng nhưng chữ luôn nằm giữa
+            line-height: 30px;
+            */
+            line-height: 30px;
+            text-align: center;
+
+        }
+        
+    </style>
+
+</head>
+<body>
+    <!--Vertical navigation bar (thanh đứng)-->
+    <div class="divvernar">
+        <a href="abc">Trang chủ</a>
+        <a href="abc">Giới thiệu</a>
+        <a href="abc">Sản phẩm</a>
+        <a href="abc">Liên hệ</a>
+        <a href="abc">Dịch vụ</a>
+        <br>
+    </div>
+    
+    <!--Horizontal navigation bar (thanh ngang)-->
+    <div class="divhornar">
+        <a href="abc">Trang chủ</a>
+        <a href="abc">Giới thiệu</a>
+        <a href="abc">Sản phẩm</a>
+        <a href="abc">Liên hệ</a>
+        <a href="abc">Dịch vụ</a>
+        <br>
+    </div>
+
+    <h1>
+        hello
+        
+    </h1>
+</body>
+</html>

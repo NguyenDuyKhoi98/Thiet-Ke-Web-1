@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            /*
+            mặc định xếp theo chiều ngang
+            */
+            flex-direction: row;
+            flex-wrap: wrap;
+            background: burlywood;
+            height: 400px;
+            width: 350px;
+            padding: 10px;
+
+        }
+        .item1, .item2, .item3{
+            height: 100px;
+            width: 200px;
+            background: red;
+            text-align: center;
+            
+        }
+        .item2{
+            background: green;
+        }
+        .item3{
+            background: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            abc
+        </div>
+
+        <div class="item2">
+            def
+        </div>
+
+        <div class="item3">
+            ghk
+        </div>
+        <div class="item1">
+            abc
+        </div>
+
+        <div class="item2">
+            def
+        </div>
+
+        <div class="item3">
+            ghk
+        </div>
+    </div>
+</body>
+</html>

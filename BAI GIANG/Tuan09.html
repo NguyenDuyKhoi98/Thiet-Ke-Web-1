@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background: blueviolet;
+            width: 80px;
+            position: fixed;
+            bottom: 5px;
+            right: 5px;
+        }
+        .phonganh{
+            background-color: blueviolet;
+            width: 100px;
+            height: 50px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .phonganh:hover .anhto{
+            visibility: visible;
+        }
+
+        .anhnho{
+            width: 100px;
+            opacity: 0.3;
+        }
+
+        .anhnho:hover{
+            opacity: 1;
+        }
+        .anhto{
+            /* tùy chọn hiển thị */
+            visibility: hidden;
+            width: 300px;
+            position: relative;
+            left: 60px;
+            
+            /*top: -60px;*/
+            /*z-index: nằm đè lên hình khác*/
+            z-index: 99;
+        }
+
+        h2{
+            position: absolute;
+            top: 450px;
+            left: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- position -->
+    <h1>chat</h1>
+    <div class="phonganh">
+        <img class="anhnho" src="/Images/Images/2.jpg" alt="">
+        <!-- <p>abc</p> -->
+        <img class="anhto"  src="/Images/Images/2.jpg" alt="">
+        </div>
+    <div class="phonganh">
+        <img class="anhnho" src="/Images/Images/1.jpg" alt="">
+        <img class="anhto"  src="/Images/Images/1.jpg" alt="">
+    </div>
+    <h2>position absolute</h2>
+
+</body>
+</html>

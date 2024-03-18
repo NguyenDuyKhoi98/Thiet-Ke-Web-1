@@ -1,0 +1,134 @@
+.header{
+    
+
+}
+
+.hleft{
+    width: 15%;
+    background-color: white;
+    padding: 10px auto;
+    display: inline-block;
+}
+
+.khunghleft{
+    background-color: white;
+    width: 85%;
+    margin: 10px auto;
+}
+
+.khunghleft h1{
+    text-align: center;
+    font-style: italic;
+    color: #1F1F1F;
+}
+
+.hleft p{
+    text-align: right;
+    color: #838382;
+}
+
+.hright{
+    background-color: white;
+    width: 55%;
+    padding: 20px 1px 0px 10px;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+
+.search{
+    display: block;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+}
+
+.search form{
+    background: #1F1F1F;
+    border-radius: 20px;
+    line-height: 30px;
+    border-style: hidden;
+    padding: 3px;
+}
+
+.search input{
+    background: #1F1F1F;
+    border-radius: 20px;
+    line-height: 30px;
+    border-style: hidden;
+}
+
+
+
+.divhornar{
+    background-color: white;
+    display: flex;
+    line-height: 40px;
+    margin: 50px 0px 10px 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.divhornar a{
+    color: #838382;
+    display: inline-block;
+    width: 100px;
+
+    text-decoration: none;
+    
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.divhornar a:hover{
+    color: cyan;
+}
+
+.main{
+    background: url(images/featured_bg.jpg);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sp{
+    width: 30%;
+    background: #1F1F1F;
+    margin: 70px 0;
+}
+
+.text{
+    width: 100%;
+    padding: 10px;
+}
+
+.text h2{
+    color: #8FB8C4;
+}
+
+.text p{
+    color: #B5B4B2;
+}
+
+.footer{
+    background: white;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.product{
+    width: 22%;
+}
+
+.product p{
+    color: #838382;
+}
+
+.footer img{
+    padding: 7px;
+}
+
